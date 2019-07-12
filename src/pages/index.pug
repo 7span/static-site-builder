@@ -1,0 +1,20 @@
+extends ../layouts/default
+include ../components/article
+
+block content
+  include ../components/hero
+
+  .box
+    .main-aside.mt--xxl
+      main.main
+        h2.main__title Our Featured Blogs
+        .articles.articles--grid
+          each n in [1,2,3,4]
+            +article
+
+        h2.main__title.mt--xxl Our Top Rated Blogs
+        .articles.articles--list
+          each n in [1,2,3,4]
+            +article
+
+      aside.aside

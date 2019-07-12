@@ -1,0 +1,28 @@
+$styles-font-families: (
+  heading: '"Poppins"',
+  content: '"Poppins"',
+  code: '"Courier New", Courier, monospace'
+);
+
+$styles-font-weights: (
+  regular: 500,
+  medium: 600,
+  bold: 700
+);
+
+/*
+FONT-SIZES
+*/
+
+$styles-font-sizes: (
+  h1: 40px,
+  h2: 32px,
+  h3: 24px,
+  h4: 18px,
+  h5: 16px,
+  h6: 13px,
+  p: 16px,
+  span: 16px,
+  small: 12px,
+  code: 14px
+);

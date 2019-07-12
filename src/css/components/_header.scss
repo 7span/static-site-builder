@@ -1,0 +1,21 @@
+.header {
+  box-shadow: 0 4px 12px 0 rgba(147, 147, 147, 0.1);
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+
+  &__logo {
+    img {
+      height: 25px;
+    }
+  }
+
+  .button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}

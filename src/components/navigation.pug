@@ -1,0 +1,7 @@
+nav.navigation
+  .box
+    .navigation__wrap
+      ul.nav.gx--xl
+        each nav in static.navigation
+          li 
+            a(href=nav.href) #{nav.label}
