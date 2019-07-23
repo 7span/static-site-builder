@@ -1,5 +1,5 @@
 {
-  "name": "static-site-builder",
+  "name": "@7span/static-site-builder",
   "version": "0.1.0-beta.1",
   "description": "Static Site Builder With Webpack & Hot Reloading",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "author": "Harsh Kansagara <mail@theharsh.in>",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "babel-loader": "^8.0.6",
     "deepmerge": "^4.0.0",
     "html-loader": "^0.5.5",
@@ -22,8 +22,5 @@
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2",
     "webpack-merge": "^4.2.1"
-  },
-  "dependencies": {
-    "@7span/styles": "^3.0.0-beta.4"
   }
 }

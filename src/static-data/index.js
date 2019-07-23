@@ -1,4 +1,1 @@
-var navigation = require("./navigation");
-module.exports = {
-  navigation
-};
+module.exports = {};

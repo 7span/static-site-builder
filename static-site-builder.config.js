@@ -8,8 +8,7 @@ module.exports = {
   pugHelpers: pugHelpers,
   pages: [
     {
-      name: "index",
-      title: "Hello World!"
+      name: "index"
     }
   ],
   js: [
@@ -20,9 +19,6 @@ module.exports = {
   css: [
     {
       name: "style.scss"
-    },
-    {
-      name: "vendor.scss"
     }
   ]
 };
